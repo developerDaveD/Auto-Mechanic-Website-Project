@@ -97,12 +97,12 @@ footer {
 }
 
 .tool-image {
-   padding-top: 3rem;
+   padding-top: 2rem;
    text-align: center;
 }
 
 #contact-me {
-   margin-top: 4rem;
+   margin-top: 3rem;
    margin-bottom: 2rem;
 }
 
@@ -203,7 +203,7 @@ button:hover {
 }
 
 .highlight a  {
-    color: rgb(255, 255, 255);
+    color: rgb(232, 235, 81);
 }
 
 .highlight a:hover  {
