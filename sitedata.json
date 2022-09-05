@@ -1,0 +1,26 @@
+[
+   {
+      "title": "Custom Restoration",
+      "smallImage": "img/workitem-img-01.jpg",
+      "smallImageAlt": "Picture of a restored classic car interior zoomed in on the red and white dashboard and steering wheel.",
+      "largeImage": "img/workitem-img-01.jpg",
+      "largeImageAlt": "Picture of a restored classic car interior zoomed in on the red and white dashboard and steering wheel.",
+      "projectText": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique odio dolor eligendi, saepe aliquid nostrum! Maiores dolorem, officiis quaerat aliquam natus recusandae necessitatibus at voluptatum dolorum a ut. Autem, saepe."
+   },
+   {
+      "title": "General Maintenance",
+      "smallImage": "img/workitem-img-02.jpg",
+      "smallImageAlt": "Picture of Bob performing maintenance under a car in his shop.",
+      "largeImage": "img/workitem-img-02.jpg",
+      "largeImageAlt": "Picture of Bob performing maintenance under a car in his shop.",
+      "projectText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatem a corporis aliquam laudantium! Quae officiis delectus voluptatibus commodi natus."
+   },
+   {
+      "title": "Engine Services",
+      "smallImage": "img/workitem-img-03.jpg",
+      "smallImageAlt": "Picture of a beautiful looking, fully restored and serviced engine.",
+      "largeImage": "img/workitem-img-03.jpg",
+      "largeImageAlt": "Picture of a beautiful looking, fully restored and serviced engine.",
+      "projectText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatem a corporis aliquam laudantium! Quae officiis delectus voluptatibus commodi natus."
+   }
+]

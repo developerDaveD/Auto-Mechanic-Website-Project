@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio Overview - Dave Donatuccio</title>
+   <meta class="desc" name="description" content="The samples page in Dave Donatuccio's portfolio, including his print and web work.">
+   <meta property="og:title" content="Dave Donatuccio's Portfolio">
+   <meta property="og:description" content="The samples page in Dave Donatuccio's portfolio, including his print and web work.">
+  <link rel="shortcut icon" href="favicon.svg">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+   <header>
+      <nav>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="workitem.html?item=1">Item #1</a></li>
+            <li><a href="workitem.html?item=2">Item #2</a></li>
+            <li><a href="workitem.html?item=3">Item #3</a></li>
+         </ul>
+      </nav>
+   </header>
+   <main id="portfolio-main">
+      <div class="highlight">
+         <div>
+            <h2>01. Custom<br>Restoration</h2>
+            <a href="workitem.html?item=1">see more</a>
+         </div>
+         <img src="img/portfolio-01-img.jpg" alt="Picture of a restored classic car interior complete with a shiny chrome steering wheel and leather seats.">
+      </div>
+      <div class="highlight invert">
+         <div>
+            <h2>02. General<br>Maintenance</h2>
+            <a href="workitem.html?item=2">see more</a>
+         </div>
+         <img src="img/portfolio-02-img.jpg" alt="Picture of Bob holding a light inspecting the condietion of a car in his shop.">
+      </div>
+      <div class="highlight">
+         <div>
+            <h2>03. Engine<br>Services</h2>
+            <a href="workitem.html?item=3">see more</a>
+         </div>
+         <img src="img/portfolio-03-img.jpg" alt="Picture of a beautiful looking, fully restored and serviced engine.">
+      </div>
+   </main>
+   <footer id="footer-section">
+      &copy; <span id="copyrightYear">2022</span> by Dave Donatuccio
+   </footer>
+   <script src="js/app.js"></script>
+   <script>
+      app.portfolio();
+   </script>
+</body>
+</html>

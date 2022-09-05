@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Auto Mechanic Website Project</title>
+   <meta class="desc" name="description" content="The portfolio project for Dave Donatuccio, including samples and contact information.">
+   <meta property="og:title" content="Dave Donatuccio's Portfolio">
+   <meta property="og:description" content="The portfolio project for Dave Donatuccio, including samples and contact information.">
+  <link rel="shortcut icon" href="favicon.svg">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+   <main>
+      <div class="hero">
+         <h1>Hi, I'm <br>Bob</h1>
+         <img src="img/hero-img.jpg" alt="A picture of me in my repair shop smiling.">
+      </div>
+      <div id="introduction-section">
+         <div class="introduction">
+            <h2>The One-Stop Shop For All Your Auto Repair Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam optio ullam asperiores dicta, exercitationem qui ex? Modi quam perferendis iure ipsum suscipit facilis provident molestiae!</p>
+         </div>
+         <div class="tool-image">
+            <img src="img/tools.svg" width="120" alt="An image of a wrench and screw driver.">
+         </div>
+      </div>
+      <div id="contact-me">
+         <h2>This is how to contact me</h2>
+         <form id="contact-form" action="" method="POST">
+               <label for="name">Name: </label>
+               <input id="name" type="text" name="name" required>
+         
+               <label for="email">Email: </label>
+               <input id="email" type="email" name="email" required>
+          
+               <label for="message">Message: </label>
+               <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+            <div>
+               <button type="submit">Contact Bob</button>
+               <button type="reset">Reset</button>
+            </div>
+         </form>
+      </div>
+      <div id="portfolio-section">
+         <div>
+            <h2>This is some of my work</h2>
+            <a href="portfolio.html">see more</a>
+         </div>
+         <img src="img/my-work-img.jpg" alt="A picture of a silver antique car I fully restored.">
+      </div>
+      <div id="my-story">
+         <h2>This is my story</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolorum eligendi ad labore aliquam esse quis est, facere enim error culpa beatae corporis quasi delectus sapiente, quisquam placeat architecto provident incidunt ratione reiciendis iste expedita nisi iusto. Consequatur blanditiis, obcaecati magni, neque dolorum in atque nostrum inventore tempore rerum officia?</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates iusto, sed rerum velit maxime libero blanditiis doloribus. Officiis, ut sequi?</p>
+      </div>
+   </main>
+   <hr>
+   <footer id="footer-section">
+      &copy; <span id="copyrightYear">2022</span> by Dave Donatuccio
+   </footer>
+   <script src="js/app.js"></script>
+   <script>
+      app.homepage();
+   </script>
+</body>
+</html>
